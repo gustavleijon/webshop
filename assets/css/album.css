@@ -1,0 +1,393 @@
+/* Menu with liks */
+.meny {
+    width: 1390px;
+    color: #000;
+}
+/* Links in the menu */
+a:link{
+    color: #000;
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+}
+a:hover {
+    color: #949B8D;
+  }
+body {
+    background-color: #F2F1F0;
+    font-family: "Avenir", "Proxima Nova";
+}
+/* The area where the search fild are lookated and login form */
+.topbar{
+    background-color: #FAFAFA;
+    width: 1350px;
+    height: 50px;
+}
+/* The searchfield */
+.sok2{
+    border: none;
+    background-color: #FAFAFA;
+}
+/* Account icon */
+.fa-circle-user{
+    font-size: 20px;
+}
+/* The login form */
+.login{
+    width: 320px;
+    border-radius: 0;
+    border-style: none;
+    border-color: #000;
+}
+/* The input fields in the login form */
+.inputfield{
+    border-radius: 0;
+    border-color: #000;
+    height: 40px;
+    font-size: small;
+}
+/* login button */
+.loginbtn{
+    width: 100%;
+    border-radius: 0;
+}
+/* Special header font */
+.go-back{
+    font-family: "Avenir", "Proxima Nova";
+}
+/* Add button/creat account */
+.addbtn{
+    width: 84%;
+    border-radius: 0;
+    border: solid;
+}
+/* Add products btn */
+.productbtn{
+    width: 100%;
+    color: #F2F1F0;
+}
+/* Admin text inside login form */
+.logintext{
+    font-size: 12px;
+}
+/* Line in add form */
+.line-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* Line in add form */
+.solid-line {
+    width: 1350px;
+    height: 1px;
+    background-color: black;
+}
+.headerbg{
+    background-color: #FAFAFA;
+    width: 1350px;
+    height: 180px;
+}
+/* introduction with a background img and text on top */
+.background-image{
+    background-image: url('../../photos/index-image.png');
+    background-size: cover;
+    width: 1350px;
+    height: 800px;
+}
+.indextext{
+    color: #FAFAFA;
+}
+.indexheader{
+    font-size: 70px;
+}
+/* The other intro img (not on index.php) */
+.productimage{
+    width: 1350px; 
+    height: 400px; 
+    object-fit: cover; 
+    display: block;
+    margin: auto; 
+}
+.produkter {
+    background-color: #FAFAFA;
+    border-radius: 0;
+    border-style: none;
+    width: 100%;
+    height: 250px;
+}
+.produkt2{
+    width: 1390px;
+}
+.produktholder{
+    background-size: cover;
+    border-style: none;
+    border-radius: 0;
+    background-color: #F2F1F0;
+}
+.imgsize{
+    width: 150px;
+}
+/* Img in special order */
+.specialcart_image {
+    width: 100px;
+    height: 100px;
+}
+/* A short introduction to the site */
+.introtext{
+    background-color: #FAFAFA;
+    width: 1350px;
+    height: 220px;
+}
+.cartheader{
+    background-color: #000;
+    color: #FAFAFA;
+}
+.offcanvasfooter{
+    /* Sends the footer in the offcanvas to the buttom */
+    margin-top: auto;
+}
+/* button in offcanvas */
+.checkoutbtn{
+    width: 100%;
+    border-radius: 0;
+}
+/* Img in offcanvas */
+.cart_image {
+    width: 100px;
+    height: 100px;
+}
+/*Image Products view*/
+.card-img-top {
+    height: 18rem; 
+    object-fit: cover;
+}
+/* ADMIN */
+/* comments in inbox */
+.comments{
+    border: solid #000 ;
+    background-color: #FAFAFA;
+}
+.admintable {
+    background-color: #F2F1F0;
+}
+.product_details{
+    width: 70%;
+}
+.product_card{
+    background-color: #F2F1F0;
+    border: none;
+}
+.add-button {
+    width: 116px;
+}
+.info_line {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.admincontainer{
+    width: 1350px;
+}
+.admintable{
+    background-color: #FAFAFA;
+}
+.collapse-container {
+    display: none;
+}
+.collapse-container:target {
+    display: block;
+}
+.produkter-list {
+    margin-top: 10px;
+    padding-left: 40px;
+    background-color: none;
+}
+.list-group-item {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+/* Footer */
+.footerholder{
+    background-color: #FAFAFA;
+    width: 1350px;
+    height: 300px;
+}
+.footer-list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-list li{
+    margin-bottom: 15px; 
+    font-size: 20px;
+}
+/* responsive CSS */
+/* Default styles for header for larger screens */
+.default-header {
+    display: block;
+}
+/* Styles for header for smaller screens */
+.small-header {
+    display: none;
+}
+
+/* Default styles for index for larger screens */
+.default-index {
+    display: block;
+}
+/* Styles for index for smaller screens */
+.small-index {
+    display: none;
+}
+
+/* Default style for product page for lager screens */
+.default-product{
+    display: block;
+}
+/* Styles for product page for smaller screens */
+.small-product{
+    display: none;
+}
+/* Default style for footer for large screen */
+.default-footer{
+    display: block;
+}
+/* Styles for footer for smaller screens */
+.small-footer{
+    display: none;
+}
+/* Default style for product.details for large screen */
+.default-details{
+    display: block;
+}
+/* Styles for product.details for smaller screens */
+.small-details{
+    display: none;
+}
+.default-cart{
+    display: block;
+}
+.small-cart{
+    display: none;
+}
+/* Default style for about the artist for larger screens */
+.default-about{
+    display: block;
+}
+/* Styles for about the artist for smaller screens */
+.small-about{
+    display: none;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .default-header {
+        display: none;
+    }
+    .small-header {
+        display: block;
+    }
+    .default-index {
+        display: none;
+    }
+    .small-index{
+        display: block;
+    }
+    .default-product{
+        display: none;
+    }
+    .small-product{
+        display: block;
+    }
+    .default-footer{
+        display: none;
+    }
+    .small-footer{
+        display: block;
+    }
+    .default-details{
+        display: none;
+    }
+    .small-details{
+        display: block;
+    }
+    .default-cart{
+        display: none;
+    }
+    .small-cart{
+        display: block;
+    }
+    .default-about{
+        display: none;
+    }
+    .small-about{
+        display: block;
+    }
+}
+/* The hamburger menus icon size */
+.burgermenu{
+    font-size: 30px;
+}
+/* The image and the text on the index page in small size */
+.background-image-small{
+    background-image: url('../../photos/index-image.png');
+    background-size: cover;
+    width: 95%;
+    height: 400px;
+}
+.indexheader-small{
+    font-size: 50px;
+}
+/* Styles the list in the open menu on the small device */
+.offcanvas-body ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    /* Style the list items as needed */
+    .offcanvas-body li {
+      margin-bottom: 15px; 
+      font-size: 20px;
+    }
+/* The big img at product page */
+.small-productimage{
+    width: 95%;
+    height: 200px;
+    object-fit: cover; 
+    display: block;
+    margin: auto;
+}
+/* A short introduction to the site */
+.small-introtext{
+    background-color: #FAFAFA;
+    width: 95%;
+    height: 220px;
+}
+.small-footer{
+    background-color: #FAFAFA;
+    width: 95%;
+    height: 300px;
+}
+.small-cart{
+    width: 95%;
+}
+.small-about{
+    width: 95%;
+    background-color: #FAFAFA;
+}
+/* About the artist */
+.about-bg{
+    background-color: #FAFAFA;
+    width: 1350px;
+    height: 1350px;
+}
+.about-text{
+    width: 60%;
+    text-align: justify;
+}
+.about-img{
+    max-width: 50%; 
+    height: auto;
+    display: block;
+    margin: auto; 
+}
